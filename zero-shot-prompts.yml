@@ -1,0 +1,74 @@
+# Zero-Shot Prompt Practice
+# Email Writing
+prompt: "Write a professional email to stakeholders explaining a 2-week delay in the WhatsApp integration project. Include an apology, brief explanation of technical challenges, revised timeline, and next steps. Keep the tone professional but reassuring."
+ai_response: "[pdate on WhatsApp Integration Project Timeline
+
+Dear Stakeholders,
+
+I hope this message finds you well.
+
+I’m writing to inform you of a revised timeline for the WhatsApp integration project. Due to unforeseen technical challenges, we are experiencing a delay of approximately two weeks in our delivery schedule.
+
+The delay stems primarily from integration issues between our backend systems and the WhatsApp API, which surfaced during final testing. Our development team is actively resolving these challenges to ensure a stable and secure rollout.
+
+We sincerely apologize for any inconvenience this may cause and appreciate your understanding as we work to maintain the quality and reliability expected of this project.
+
+Revised Timeline:
+Previous Go-Live Date: [Insert original date]
+New Target Date: [Insert new date, two weeks later]
+Next Steps:
+Finalize API adjustments and conduct regression testing
+Update documentation and user flows
+Schedule stakeholder demo and feedback session
+We remain committed to delivering a robust solution and will keep you updated on progress. Please feel free to reach out with any questions or concerns.
+
+Warm regards,
+Nombulelo July
+Business Analyst
+[Your Company Name]]"
+
+# Meeting Summary
+prompt: "Create a concise meeting summary with the following structure: Key Decisions, Action Items (with owners and deadlines), and Next Meeting Date. Write it for a project status meeting about implementing WhatsApp customer service capabilities."
+ai_response: "[
+📋 Meeting Summary: WhatsApp Customer Service Implementation – Project Status
+
+🗓 Date: [Insert meeting date]
+🧑‍💼 Facilitator: [Insert name]
+
+✅ Key Decisions
+Proceed with Phase 2 development focused on chatbot escalation workflows.
+Delay external system integration until API stability is confirmed.
+📌 Action Items
+Task	Owner	Deadline
+Finalize chatbot escalation logic	Keegan Govender	22 July 2025
+Review API documentation for Flow Communications	Kamogelo Boroko	18 July 2025
+Draft revised rollout timeline	Nombulelo July	17 July 2025
+📅 Next Meeting
+Date: 24 July 2025
+Focus: Review progress on chatbot logic and external system readiness]"
+
+# Technical Documentation:
+prompt: "Write a brief technical requirements document for integrating WhatsApp Business API into an existing customer service system. Include sections for: Overview, Technical Requirements, Integration Points, and Success Criteria. Use bullet points and keep it under 300 words."
+ai_response: "[WhatsApp Business API Integration – Technical Requirements Document
+Overview
+This document outlines the technical requirements for integrating the WhatsApp Business API into the existing customer service infrastructure to enable real-time customer support, claims submission, and automated messaging.
+
+Technical Requirements
+WhatsApp Business Account (WABA) setup and verification
+Secure API access via HTTPS with OAuth 2.0 authentication
+Webhook configuration for message delivery and status updates
+Data encryption and compliance with POPIA and GDPR
+Audit logging for message exchanges and system access 1
+Failover and retry mechanisms for message delivery
+Integration Points
+CRM System: Sync customer profiles and conversation history
+Chatbot Engine: Route initial queries and escalate to agents
+Email Gateway: Convert WhatsApp messages to email threads for documentation 2
+Analytics Platform: Track engagement metrics and SLA performance
+Service Desk: Log tickets from WhatsApp interactions
+Success Criteria
+99% uptime of WhatsApp messaging services
+Seamless handoff between chatbot and live agents
+SLA adherence for first response and resolution times
+Secure handling and deletion of user data post-session 1
+Positive customer feedback and reduced call center load]"
